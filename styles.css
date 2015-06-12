@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: Bebas;
+  src: local("Police/BEBAS___.TTF"),
+  local("Police/BEBAS___.TTF"),
+  url(Police/BEBAS___.TTF);
+  font-weight: bold;
+}
+
+body {	width:100%;
+		height:860px;
+		margin:auto;
+		padding:0;
+		text-align:center;
+
+}
+
+main {
+	width: 100%;
+	height: 100%;	
+	margin: auto;
+	text-align:center;
+	/*border: 2px solid black;*/
+}
+
+header  {
+	display:block;
+	width:100%;
+	height:110px;
+	background-image: url(img/FondHeader.png);
+	background-repeat:repeat-x;	
+	text-align:center;
+	magin: auto;	
+}
+
+
+
+nav	{
+	display:inline-block;
+	width: 1080px;
+	padding: 10px 0 0 0;	
+	magin: auto;	
+
+}
+.Logo	{
+	display:inline-block;
+	width: 200px;
+	margin: 0 0 0 0;
+	padding: 15px 0 0 15px;	
+}
+nav ul	{
+	display:inline-block;
+	font-size:14px;
+	font-family:Bebas, Arial, Helvetica, sans-serif;
+}
+nav ul li	{
+	display:inline-block;
+	padding: 0px 15px 0px 15px;
+	color: #484444;
+	border-left: 2px solid black;
+}
+nav ul li:hover	{
+	color: #eb7700;
+}
+nav ul li a {
+	text-decoration:none;
+
+}
+nav ul li:first-child{
+	border: none;
+
+}
+nav ul li a img{
+
+}
+
+nav ul li a:visited	{
+	color: #484444;
+}
+
+
+/*CSS du corps de la page d accueil*/
+article {
+	width: 1080px;
+	display:inline-block;
+	padding-top: 200px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;	
+}
+
+
+article .TextHome {
+	display:block;
+	float:left;
+	width:44%;
+	height: 100%;
+	padding: 3% 3% 3% 3%;
+	text-align: left;
+}
+article .TextHome p {
+	display:block;
+	float:left;
+	width: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;	
+	padding-right: 10%;
+
+}
+article .TextHome h1 {
+	margin-bottom: 40px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+
+article .ImgHome {
+	display:block;
+	float:left;
+	width:44%;
+	padding: 3% 3% 3% 3%;
+}
+footer{
+	
+	
+}
+
+.LigneUsager {
+	width:100%; 
+	height:30px;
+	/*border:1px solid #000;*/
+	
+}
+
+.LigneUsager .Tab0 {
+	display:block;
+	float:left;
+	width:9.8%; 
+	height:30px;
+	background-color:#CCC;
+	text-align:left;
+	font-size:12px;
+	font-family:Bebas;
+	border:1px solid  #000;
+	
+}
+.LigneUsager .Tab1 {
+	display:block;
+	float:left;
+	width:9.8%; 
+	height:30px;
+	border:1px solid #000;
+	
+}
+.LigneUsager .Tab2 {
+	display:block;
+	float:left;
+	width:9.8%; 
+	height:30px;
+	border:1px solid #000;
+	background-color:#9CF;
+	
+}
+.TableauUtilisateur {
+	width:100%;
+	text-align:center;
+	
+}
+
+.LigneUtilisateur{
+	height:30px;
+	margin-left: 10%;
+}
+.LigneUtilisateur .Tab0 {
+	display:block;
+	float:left;
+	width:20%; 
+	height:30px;
+	background-color:#CCC;
+	text-align:left;
+	font-size:12px;
+	font-family:Bebas;
+	border:1px solid  #000;
+	
+}
+.LigneUtilisateur .Tab1 {
+	display:block;
+	float:left;
+	width:20%; 
+	height:30px;
+	border:1px solid #000;
+    font-size: 15px;
+    text-align: center;
+	
+}
+.LigneUtilisateur .Tab2 {
+	display:block;
+	float:left;
+	width:20%; 
+	height:30px;
+	border:1px solid #000;
+	background-color:#9CF;
+    font-size: 15px;
+    text-align: center;
+	
+}
+.FormUtilisateur {
+ display: inline-block;
+}
